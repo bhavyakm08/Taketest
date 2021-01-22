@@ -1,0 +1,27 @@
+body{
+    border: 1px solid black;
+   text-align: center;
+    margin: 200px;
+    width: 280px;
+    margin-left: 550px;
+}
+.heading{
+    margin-top: 60px;
+    
+}
+.image-upload{
+    margin-top: 10px;
+   
+}
+.discription{
+    margin-top: 10px;
+    
+}
+.comment{
+    margin-top: 10px;
+}
+.click{
+    margin-top: 10px;
+    margin-left: 20px;
+   
+}
