@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="formsixth.css">
+    
+        <form method="get" action="display.html">
+
+            <div class="heading">
+                Heading :<input type="text" placeholder="Enter the Heading" name="heading" id="head">
+
+            </div> <br>
+
+            <div class="image-upload">
+                Image :<input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/jpeg" id="img">
+                <div class="file-upload-content">
+
+                    <div class="image-title"></div>
+                </div>
+            </div> <br>
+
+            <div class="discription">
+                Discription :<input type="text" placeholder="Write the Discription" name="discription" id="disp">
+
+            </div> <br>
+
+            <div class="comment">
+                Comment :<input type="text" placeholder="Comment Here" name="comment" id="cmt">
+
+            </div> <br>
+
+            <div class="click">
+                <input type="submit" id="check" value="submit">
+            </div> <br>
+        </form>
+  
+</body>
+<script src="formsixth.js"></script>
+
+</html>
