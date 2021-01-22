@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Display the content</title>
+</head>
+<body>
+   <script>
+       var d=window.location.search;
+       alert(d);
+    </script>
+    
+   
+    
+</body>
+</html>
