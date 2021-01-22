@@ -1,0 +1,14 @@
+document.getElementById("check").addEventListener("click" ()=>{
+    
+    var heading=document.getElementById("head").value;
+    var image= document.getElementById("img").value;
+    var dispt= document.getElementById("disp").value;
+    var commt= document.getElementById("cmt").value;
+    
+    
+    document.getElementById("head").innerHTML=heading;
+    document.getElementById("img").innerHTML=image;
+    document.getElementById("dispt").innerHTML=dispt;
+    document.getElementById("comt").innerHTML=commt;
+    
+})
